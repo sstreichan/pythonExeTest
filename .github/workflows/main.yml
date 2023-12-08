@@ -29,6 +29,5 @@ jobs:
       with:
         repo_token: ${{ secrets.GITHUB_TOKEN }}
         file: src/dist/windows
-        asset_name: mything
         tag: ${{ github.ref }}
         overwrite: true
